@@ -1,0 +1,15 @@
+
+[802-3-ethernet]
+duplex=full
+
+[connection]
+id=Connexion filaire 1
+uuid=d61746d0-e0bb-4cd2-bb80-242460715c6b
+type=802-3-ethernet
+
+[ipv6]
+method=auto
+
+[ipv4]
+method=manual
+addresses1=192.168.1.2;24;192.168.1.1;
